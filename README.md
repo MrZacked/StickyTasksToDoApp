@@ -10,8 +10,24 @@ A full-stack todo application built with MongoDB, Express.js, React, and Node.js
 
 </div>
 
+<div align="center">
 
-| ![Add Tasks](Examples/1.png) | ![All Tasks](Examples/4.png) | ![Active Tasks](Examples/3.png) | ![Completed Tasks](Examples/2.png) |
+<table>
+<tr>
+<td align="center"><b>Add Tasks</b></td>
+<td align="center"><b>All Tasks</b></td>
+<td align="center"><b>Active Tasks</b></td>
+<td align="center"><b>Completed Tasks</b></td>
+</tr>
+<tr>
+<td><img src="Examples/1.png" width="200"/></td>
+<td><img src="Examples/4.png" width="200"/></td>
+<td><img src="Examples/3.png" width="200"/></td>
+<td><img src="Examples/2.png" width="200"/></td>
+</tr>
+</table>
+
+</div>
 
 ## Features
 
