@@ -2,6 +2,17 @@
 
 A full-stack todo application built with MongoDB, Express.js, React, and Node.js.
 
+## Preview
+
+<div align="center">
+  
+![StickyTasks Overview](Examples/FullPage.png)
+
+</div>
+
+
+| ![Add Tasks](Examples/1.png) | ![All Tasks](Examples/4.png) | ![Active Tasks](Examples/3.png) | ![Completed Tasks](Examples/2.png) |
+
 ## Features
 
 - Add, edit, delete, and toggle todos
