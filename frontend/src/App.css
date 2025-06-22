@@ -1,0 +1,8 @@
+/* App-specific styles */
+/* Most styles are in index.css for global application */
+
+.App {
+  text-align: center;
+}
+
+/* Additional app-specific overrides can go here */ 

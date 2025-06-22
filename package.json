@@ -1,0 +1,24 @@
+{
+  "name": "stickytasks",
+  "version": "1.0.0",
+  "description": "A full-stack todo application built with MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "docker:mongo": "docker-compose -f docker-compose.dev.yml up -d mongo",
+    "docker:admin": "docker-compose -f docker-compose.dev.yml up -d mongo-express",
+    "docker:down": "docker-compose -f docker-compose.dev.yml down",
+    "docker:logs": "docker-compose -f docker-compose.dev.yml logs -f"
+  },
+  "keywords": ["mern", "todo", "react", "node", "mongodb", "express"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+} 
